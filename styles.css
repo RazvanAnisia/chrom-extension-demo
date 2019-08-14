@@ -1,0 +1,39 @@
+
+body{
+    width:500px;
+    background:linear-gradient(#232280,black) no-repeat;
+    font-family:Helvetica;
+    color:white;
+    margin:0;
+    padding:0;
+    padding-left:30px;
+    
+    
+}
+.todo__list li{
+    color:rgb(223, 223, 224);
+}
+.todo__list{
+    max-height:120px;
+    overflow-y:scroll;
+}
+.todo__input{
+    border-radius:2px;
+    border:none;
+    padding:4px;
+    border:1.5px solid black;
+}
+input[type='submit']{
+    color:white;
+    background:black;
+    border:none;
+    padding:5px;
+    border-radius:2px;
+   
+}
+input[type='submit']:hover{
+    color:black;
+    background:rgb(255, 255, 255);
+    cursor:pointer;
+  
+}
